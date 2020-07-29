@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: green;
+    
   }
   
 .topBar {
@@ -29,4 +30,49 @@ body {
 .topBar a.current {
     background-color: green;
     color: white;
+}
+
+#intro {
+    float: right;
+    padding-right: 100px;
+    padding-top: 50px; 
+    width:40%;
+    text-align: justify;
+    font-size: 30px;
+    color: yellow;
+}
+
+.videoWrap {
+    padding-top: 30px;
+    padding-left: 15px;
+    width: 500px;
+    height: 40%;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    color: yellow;
+    min-width: 560px;
+}
+
+.video {
+    border:4px outset white;
+}
+
+#entreeWrap {
+    border-top: 10px solid white;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    color: yellow;
+    min-width: 560px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul {
+    float: left;
 }

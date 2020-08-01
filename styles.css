@@ -58,12 +58,12 @@ body {
     border:4px outset white;
 }
 
-#entreeWrap {
+#listWrap {
     border-top: 10px solid white;
     padding-top: 30px;
     
     width: 100%;
-    height: 3000px;
+   
     text-align: center;
     font-style: italic;
     font-size: large;
@@ -77,7 +77,7 @@ ul {
     list-style-type: none;
     
     display:grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 33% 33% 33%;
     grid-column-gap:10px;
     
 }
@@ -91,4 +91,6 @@ li {
     width: 100%;
     height:auto; 
 }
+
+
 

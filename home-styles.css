@@ -73,3 +73,36 @@ div.menu {
     border-radius: 50%;
     padding: 15px 32px;
 }
+
+.scroll {
+    margin-top: 1500px;
+    margin-right: 10px;
+    float: right;
+    border: none;
+    padding: 5px;
+    font: 14px sans-serif;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    background-color: white;
+}
+    
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: yellowgreen;  
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #88ba1c;  
+}

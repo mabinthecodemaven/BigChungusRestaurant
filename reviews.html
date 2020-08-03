@@ -15,14 +15,18 @@
                 <a class='current' href="reviews.html">Reviews</a>
             </div>    
         </div>
-
-            <form action="/action_page.php">
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" value="John"><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <h1>Write a review!</h1>
+        
+        <div id='reviewWrap'>
+            <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="review">Review:</label><br>
+                <textarea rows="4" cols="50" name="review"></textarea>
+                <br>
                 <input type="submit" value="Submit">
             </form> 
+        </div>
 
         <div id='listWrap'>
             <span><h1>Real Testimonials</h1></span>

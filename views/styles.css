@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: yellow;
+    text-align: center;
+    
+  }
+  
+.topBar {
+    overflow: hidden;
+    background-color: gray;
+    text-align: center;
+    position: relative;
+}
+
+
+.topBar a {
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.topBar a:hover {
+    background-color: rgb(231, 138, 138);
+    color: black;
+}
+
+.topBar a.current {
+    background-color: green;
+    color: white;
+}
+
+#intro {
+    float: right;
+    padding-right: 100px;
+    padding-top: 50px; 
+    width:40%;
+    text-align: justify;
+    font-size: 30px;
+    color: yellow;
+}
+
+.videoWrap {
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 500px;
+    height: 40%;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    color: yellow;
+    min-width: 560px;
+}
+
+.video {
+    border:4px outset white;
+}
+
+#listWrap {
+    border-top: 10px solid white;
+    padding-top: 30px;
+    
+    width: 100%;
+   
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    color: yellow;
+    min-width: 560px;
+}
+
+p {
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+ul {
+    
+    list-style-type: none;
+    
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap:10px;
+    
+}
+
+li {
+    margin: 1.5em 0;
+    display: grid;
+}
+
+.pic {
+    width: 100%;
+    height:auto; 
+}
+
+#reviewWrap {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+
+input[name="review"] {
+    background: red;
+  }
+
+
